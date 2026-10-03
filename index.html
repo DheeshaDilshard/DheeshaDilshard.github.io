@@ -1,182 +1,330 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dheesha Dilshard — Software Engineering undergraduate and full-stack developer portfolio.">
-  <title>Dheesha Dilshard | Software Engineer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="cursor-glow"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dheesha Dilshard — Software Engineering undergraduate and full-stack developer portfolio."
+    />
+    <title>Dheesha Dilshard | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
 
-  <header class="nav">
-    <a class="brand" href="#home"><span>D</span> DHEESHA</a>
-    <button class="menu" aria-label="Open menu">☰</button>
-    <nav class="nav-links">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#skills">Skills</a>
-      <a href="#journey">Journey</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="nav-cta" href="assets/Dheesha-Dilshard-CV.pdf" download>Download CV ↗</a>
-  </header>
+    <header class="nav">
+      <a class="brand" href="#home"><span>D</span> DHEESHA</a>
+      <button
+        class="menu"
+        type="button"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        ☰
+      </button>
+      <nav id="main-nav" class="nav-links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="assets/Dheesha-Dilshard-CV.pdf" download
+        >Download CV ↗</a
+      >
+    </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span></span> SOFTWARE ENGINEERING · SRI LANKA</p>
-        <h1>Building digital<br><em>experiences</em> that matter.</h1>
-        <p class="hero-text">
-          I'm <strong>Dheesha Dilshard</strong>, a third-year Software Engineering undergraduate
-          who enjoys turning ideas into clean, useful web and mobile products.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#work">Explore my work <span>↘</span></a>
-          <a class="btn ghost" href="#contact">Let's connect</a>
-        </div>
-        <div class="mini-stats">
-          <div><b>01</b><span>Full-stack<br>development</span></div>
-          <div><b>02</b><span>Mobile<br>development</span></div>
-          <div><b>03</b><span>AI & modern<br>developer tools</span></div>
-        </div>
-      </div>
-
-      <div class="hero-visual reveal">
-        <div class="portrait-frame">
-          <div class="portrait-tag">AVAILABLE FOR<br>OPPORTUNITIES</div>
-          <img src="assets/dheesha.jpeg" alt="Dheesha Dilshard">
-          <div class="portrait-caption">DHEESHA<br><small>SOFTWARE ENGINEER</small></div>
-        </div>
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="floating-card">
-          <span class="dot"></span>
-          <div><b>Currently learning</b><small>Building · Testing · Growing</small></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section about">
-      <div class="section-label reveal">01 / ABOUT ME</div>
-      <div class="about-grid">
-        <div class="about-title reveal">
-          <p class="kicker">A developer with curiosity.</p>
-          <h2>Code is my craft.<br><em>Problem-solving is my mindset.</em></h2>
-        </div>
-        <div class="about-copy reveal">
-          <p>
-            I am a Software Engineering undergraduate at the University of Westminster,
-            studying through the Informatics Institute of Technology. My experience includes
-            full-stack development, web development, mobile applications, APIs, databases,
-            object-oriented programming, testing and version control.
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> SOFTWARE ENGINEERING · SRI LANKA</p>
+          <h1>Building digital<br /><em>experiences</em> that matter.</h1>
+          <p class="hero-text">
+            I'm <strong>Dheesha Dilshard</strong>, a third-year Software
+            Engineering undergraduate who enjoys turning ideas into clean,
+            useful web and mobile products.
           </p>
-          <p>
-            During my internship at InforaTech, I gained practical exposure to professional
-            software-development workflows and collaborative delivery. My academic projects
-            have helped me turn requirements into working software while learning how different
-            technologies fit together.
-          </p>
-          <div class="about-links">
-            <a href="https://github.com/DheeshaDilshard" target="_blank">GitHub ↗</a>
-            <a href="https://www.linkedin.com/in/dheesha-dilshard-58b8232b7/" target="_blank">LinkedIn ↗</a>
+          <div class="hero-actions">
+            <a class="btn primary" href="#work"
+              >Explore my work <span>↘</span></a
+            >
+            <a class="btn ghost" href="#contact">Let's connect</a>
+          </div>
+          <div class="mini-stats">
+            <div>
+              <b>01</b><span>Full-stack<br />development</span>
+            </div>
+            <div>
+              <b>02</b><span>Mobile<br />development</span>
+            </div>
+            <div>
+              <b>03</b><span>AI & modern<br />developer tools</span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section id="work" class="section work">
-      <div class="section-head reveal">
-        <div><div class="section-label">02 / SELECTED WORK</div><h2>Things I've <em>built.</em></h2></div>
-        <span class="work-count">03 PROJECTS</span>
-      </div>
-
-      <div class="projects">
-        <article class="project featured reveal">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <p class="project-type">SOFTWARE DEVELOPMENT GROUP PROJECT</p>
-            <h3>SaveOnix</h3>
-            <p>AI-powered savings application designed to help users create goals, track progress and manage shared savings goals.</p>
-            <div class="tags"><span>Flutter</span><span>Django</span><span>APIs</span><span>Database</span></div>
-            <a href="#" class="project-link">View project concept ↗</a>
+        <div class="hero-visual reveal">
+          <div class="portrait-frame">
+            <div class="portrait-tag">AVAILABLE FOR<br />OPPORTUNITIES</div>
+            <img src="assets/dheesha.jpeg" alt="Dheesha Dilshard" />
+            <div class="portrait-caption">
+              DHEESHA<br /><small>SOFTWARE ENGINEER</small>
+            </div>
           </div>
-          <div class="project-art saveonix-art"><div class="phone-ui"><span>SaveOnix</span><strong>Smart<br>saving.</strong><i>Goal progress</i><b>72%</b></div></div>
-        </article>
-
-        <article class="project reveal">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <p class="project-type">WEB DESIGN & DEVELOPMENT</p>
-            <h3>Life on Land</h3>
-            <p>Responsive informational website based on UN Sustainable Development Goal 15, created with a four-member team.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div>
-            <a href="#" class="project-link">View project ↗</a>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="floating-card">
+            <span class="dot"></span>
+            <div>
+              <b>Currently learning</b
+              ><small>Building · Testing · Growing</small>
+            </div>
           </div>
-          <div class="project-art land-art"><div class="leaf">⌁</div><small>SDG 15</small></div>
-        </article>
-
-        <article class="project reveal">
-          <div class="project-number">03</div>
-          <div class="project-content">
-            <p class="project-type">SOFTWARE DEVELOPMENT COURSEWORK</p>
-            <h3>Traffic Data Analysis</h3>
-            <p>Python-based system for processing traffic CSV datasets, validating data, calculating metrics and presenting histogram visualisations.</p>
-            <div class="tags"><span>Python</span><span>Tkinter</span><span>CSV</span><span>OOP</span></div>
-            <a href="#" class="project-link">View project ↗</a>
-          </div>
-          <div class="project-art data-art"><div class="bars"><i></i><i></i><i></i><i></i><i></i></div><small>DATA / ANALYSIS</small></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="section skills">
-      <div class="section-label reveal">03 / TOOLKIT</div>
-      <div class="skills-grid">
-        <div class="reveal"><h2>My <em>toolkit.</em></h2><p>I work across the stack and enjoy learning new technologies when a project calls for them.</p></div>
-        <div class="skill-cloud reveal">
-          <span class="large">Python</span><span>Django</span><span>Java</span><span class="large">Flutter</span>
-          <span>JavaScript</span><span>React.js</span><span>Node.js</span><span>HTML5</span>
-          <span>CSS3</span><span>PHP</span><span>MySQL</span><span>MongoDB</span>
-          <span>Firebase</span><span>Supabase</span><span>Git</span><span>GitHub</span>
-          <span>VS Code</span><span>Figma</span><span>API Integration</span><span>OOP</span>
-          <span>Testing & QA</span><span>UI/UX</span>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="journey" class="section journey">
-      <div class="section-label reveal">04 / JOURNEY</div>
-      <div class="timeline">
-        <div class="timeline-item reveal"><span>2024 — PRESENT</span><div><h3>BEng (Hons) Software Engineering</h3><p>University of Westminster · Informatics Institute of Technology</p></div></div>
-        <div class="timeline-item reveal"><span>APR — JUL 2026</span><div><h3>Full-Stack Developer Intern</h3><p>InforaTech · Practical software development and collaborative workflows.</p></div></div>
-        <div class="timeline-item reveal"><span>2026</span><div><h3>Ethical Hacking Certification</h3><p>MarsTech Campus · Fundamental cybersecurity, vulnerability assessment and penetration testing concepts.</p></div></div>
-        <div class="timeline-item reveal"><span>2025 — 2026</span><div><h3>Academic Project Work</h3><p>SaveOnix · Life on Land · Traffic Data Analysis</p></div></div>
-      </div>
-    </section>
+      <section id="about" class="section about">
+        <div class="section-label reveal">01 / ABOUT ME</div>
+        <div class="about-grid">
+          <div class="about-title reveal">
+            <p class="kicker">A developer with curiosity.</p>
+            <h2>
+              Code is my craft.<br /><em>Problem-solving is my mindset.</em>
+            </h2>
+          </div>
+          <div class="about-copy reveal">
+            <p>
+              I am a Software Engineering undergraduate at the University of
+              Westminster, studying through the Informatics Institute of
+              Technology. My experience includes full-stack development, web
+              development, mobile applications, APIs, databases, object-oriented
+              programming, testing and version control.
+            </p>
+            <p>
+              During my internship at InforaTech, I gained practical exposure to
+              professional software-development workflows and collaborative
+              delivery. My academic projects have helped me turn requirements
+              into working software while learning how different technologies
+              fit together.
+            </p>
+            <div class="about-links">
+              <a href="https://github.com/DheeshaDilshard" target="_blank"
+                >GitHub ↗</a
+              >
+              <a
+                href="https://www.linkedin.com/in/dheesha-dilshard-58b8232b7/"
+                target="_blank"
+                >LinkedIn ↗</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section class="quote-section reveal">
-      <p>“</p><h2>Curious enough to learn.<br>Practical enough to build.</h2>
-    </section>
+      <section id="work" class="section work">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-label">02 / SELECTED WORK</div>
+            <h2>Things I've <em>built.</em></h2>
+          </div>
+          <span class="work-count">03 PROJECTS</span>
+        </div>
 
-    <section id="contact" class="section contact">
-      <div class="section-label reveal">05 / CONTACT</div>
-      <div class="contact-box reveal">
-        <div><p class="kicker">Have a project, internship or opportunity?</p><h2>Let's make something<br><em>worth remembering.</em></h2></div>
-        <a class="mail" href="mailto:dhe8830sha@gmail.com">dhe8830sha@gmail.com <span>↗</span></a>
-      </div>
-      <div class="contact-bottom">
-        <span>Puttalam, Sri Lanka</span>
-        <div><a href="https://github.com/DheeshaDilshard" target="_blank">GitHub</a><a href="https://www.linkedin.com/in/dheesha-dilshard-58b8232b7/" target="_blank">LinkedIn</a></div>
-      </div>
-    </section>
-  </main>
+        <div class="projects">
+          <article class="project featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">SOFTWARE DEVELOPMENT GROUP PROJECT</p>
+              <h3>SaveOnix</h3>
+              <p>
+                AI-powered savings application designed to help users create
+                goals, track progress and manage shared savings goals.
+              </p>
+              <div class="tags">
+                <span>Flutter</span><span>Django</span><span>APIs</span
+                ><span>Database</span>
+              </div>
+              <a
+                href="https://github.com/DheeshaDilshard"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+                >View project concept ↗</a
+              >
+            </div>
+            <div class="project-art saveonix-art">
+              <div class="phone-ui">
+                <span>SaveOnix</span><strong>Smart<br />saving.</strong
+                ><i>Goal progress</i><b>72%</b>
+              </div>
+            </div>
+          </article>
 
-  <footer><span>© 2026 DHEESHA DILSHARD</span><span>DESIGNED & BUILT WITH CODE</span></footer>
-  <script src="script.js"></script>
-</body>
+          <article class="project reveal">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">WEB DESIGN & DEVELOPMENT</p>
+              <h3>Life on Land</h3>
+              <p>
+                Responsive informational website based on UN Sustainable
+                Development Goal 15, created with a four-member team.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span
+                ><span>Responsive UI</span>
+              </div>
+              <a
+                href="https://github.com/DheeshaDilshard"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+                >View project ↗</a
+              >
+            </div>
+            <div class="project-art land-art">
+              <div class="leaf">⌁</div>
+              <small>SDG 15</small>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">SOFTWARE DEVELOPMENT COURSEWORK</p>
+              <h3>Traffic Data Analysis</h3>
+              <p>
+                Python-based system for processing traffic CSV datasets,
+                validating data, calculating metrics and presenting histogram
+                visualisations.
+              </p>
+              <div class="tags">
+                <span>Python</span><span>Tkinter</span><span>CSV</span
+                ><span>OOP</span>
+              </div>
+              <a
+                href="https://github.com/DheeshaDilshard"
+                target="_blank"
+                rel="noreferrer"
+                class="project-link"
+                >View project ↗</a
+              >
+            </div>
+            <div class="project-art data-art">
+              <div class="bars"><i></i><i></i><i></i><i></i><i></i></div>
+              <small>DATA / ANALYSIS</small>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="section-label reveal">03 / TOOLKIT</div>
+        <div class="skills-grid">
+          <div class="reveal">
+            <h2>My <em>toolkit.</em></h2>
+            <p>
+              I work across the stack and enjoy learning new technologies when a
+              project calls for them.
+            </p>
+          </div>
+          <div class="skill-cloud reveal">
+            <span class="large">Python</span><span>Django</span><span>Java</span
+            ><span class="large">Flutter</span> <span>JavaScript</span
+            ><span>React.js</span><span>Node.js</span><span>HTML5</span>
+            <span>CSS3</span><span>PHP</span><span>MySQL</span
+            ><span>MongoDB</span> <span>Firebase</span><span>Supabase</span
+            ><span>Git</span><span>GitHub</span> <span>VS Code</span
+            ><span>Figma</span><span>API Integration</span><span>OOP</span>
+            <span>Testing & QA</span><span>UI/UX</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="journey" class="section journey">
+        <div class="section-label reveal">04 / JOURNEY</div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>2024 — PRESENT</span>
+            <div>
+              <h3>BEng (Hons) Software Engineering</h3>
+              <p>
+                University of Westminster · Informatics Institute of Technology
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span>APR — JUL 2026</span>
+            <div>
+              <h3>Full-Stack Developer Intern</h3>
+              <p>
+                InforaTech · Practical software development and collaborative
+                workflows.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span>2026</span>
+            <div>
+              <h3>Ethical Hacking Certification</h3>
+              <p>
+                MarsTech Campus · Fundamental cybersecurity, vulnerability
+                assessment and penetration testing concepts.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <span>2025 — 2026</span>
+            <div>
+              <h3>Academic Project Work</h3>
+              <p>SaveOnix · Life on Land · Traffic Data Analysis</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section reveal">
+        <p>“</p>
+        <h2>Curious enough to learn.<br />Practical enough to build.</h2>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-label reveal">05 / CONTACT</div>
+        <div class="contact-box reveal">
+          <div>
+            <p class="kicker">Have a project, internship or opportunity?</p>
+            <h2>Let's make something<br /><em>worth remembering.</em></h2>
+          </div>
+          <a class="mail" href="mailto:dhe8830sha@gmail.com"
+            >dhe8830sha@gmail.com <span>↗</span></a
+          >
+        </div>
+        <div class="contact-bottom">
+          <span>Puttalam, Sri Lanka</span>
+          <div>
+            <a href="https://github.com/DheeshaDilshard" target="_blank"
+              >GitHub</a
+            ><a
+              href="https://www.linkedin.com/in/dheesha-dilshard-58b8232b7/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 DHEESHA DILSHARD</span
+      ><span>DESIGNED & BUILT WITH CODE</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
